@@ -9,7 +9,7 @@ class AddProject extends BasePage {
 
     // Extra Points add select the following behavior
   
-    private colorDropdown: string = '//span[contains(text(),"Amarillo")]';
+    private colorDropdown: string = `//span[contains(text(),"${"Amarillo"}")]`;
     private favoritesToggle: string = '//span[@class="reactist_switch--handle"]';
     private optionListView: string = '//div[text()="Lista"]';
     private optionBoardView: string = '//div[text()="Panel"]';
